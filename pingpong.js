@@ -8,7 +8,7 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', message => {
-    if (message.content === '!핑') {
+    if (message.content === '!핑크') {
         message.reply('퐁!');
     }
 });
